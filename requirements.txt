@@ -2,3 +2,4 @@ discord.py
 asyncio
 yt_dlp
 flask
+python-dotenv
