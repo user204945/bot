@@ -13,7 +13,7 @@ def start_flask():
     def home():
         return 'OK', 200
 
-    app.run(port=3000, debug=True, use_reloader=False)
+    app.run(port=3000, debug=False, use_reloader=False)
 
 def run_bot():
     load_dotenv()
